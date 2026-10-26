@@ -1,0 +1,30 @@
+.venv/
+data/
+logs/
+__pycache__/
+.pytest_cache/
+.tmp/
+.revisions/
+.review-tmp/
+tests/tmp*/
+tests/.tmp*/
+*.pyc
+
+# Local data, credentials, exports and recovery material
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*恢复密钥*
+
+# Local implementation notes and QA captures
+/CONTRACT.md
+/preview*.jpg
+/preview*.png
